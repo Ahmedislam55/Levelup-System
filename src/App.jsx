@@ -57,11 +57,6 @@ function App() {
       path: "/resetPassword",
       element: <ResetPassword />,
     },
-    {
-      path: "/signupPage",
-      element: <SignupPage />,
-    },
-
     // Protected Dashboard routes
     {
       path: "/",
