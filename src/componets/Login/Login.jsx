@@ -212,12 +212,6 @@ const Login = () => {
                 >
                   Forgot your password?
                 </Link>
-                                <Link
-                  to="/signupPage"
-                  className="text-sm text-blue-600 hover:text-blue-800 font-medium transition duration-300 ease-in-out hover:underline"
-                >
-                  Sign UP
-                </Link>
               </div>
 
               {/* Submit Button */}
