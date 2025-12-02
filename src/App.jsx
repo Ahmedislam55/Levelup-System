@@ -19,6 +19,7 @@ import adminRoutes from "./routes/adminRoutes";
 import teacherRoutes from "./routes/teacherRoutes";
 import studentRoutes from "./routes/studentRoutes";
 import ResetPassword from "./componets/ResetPassword/ResetPassword";
+import SignupPage from "./pages/admin/SignupPage";
 
 // دالة عشان تتحقق من وجود الـ login
 const isAuthenticated = () => {
@@ -55,6 +56,10 @@ function App() {
     {
       path: "/resetPassword",
       element: <ResetPassword />,
+    },
+    {
+      path: "/signupPage",
+      element: <SignupPage />,
     },
 
     // Protected Dashboard routes
